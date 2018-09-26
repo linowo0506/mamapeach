@@ -58,7 +58,6 @@
 }
 
 @media (max-width: 768px) {
-
     .lean-bg--top:before,
     .lean-bg--bottom:after {
         height: 80px;
@@ -351,7 +350,7 @@
     margin-left: -16px;
 }
 
-label {
+.toggle-label {
     position: absolute;
     margin: 0 20px 0 0;
     font-size: 26px;
@@ -370,13 +369,11 @@ label {
         display: flex;
         flex-wrap: wrap;
     }
-
     .logo {
         width: 70px;
         /* position: absolute; */
         left: 5px;
     }
-
     .menu>li>a {
         display: block;
         font-size: 14px;
@@ -384,19 +381,16 @@ label {
         padding: 24px 12px;
         color: #e73e50;
     }
-
-    label {
+    .toggle-label {
         display: block;
         cursor: pointer;
         color: #e73e50;
     }
-
     .menu {
         text-align: center;
         width: 100%;
         display: none;
     }
-
     #toggle:checked+.menu {
         display: block;
     }
@@ -435,7 +429,6 @@ label {
         font-weight: 900;
         color: #e73e50;
     }
-
     .peach__logo {
         margin-left: 35px;
     }
@@ -617,20 +610,16 @@ label {
     .timeline {
         left: 0;
     }
-
     .timeline-card {
         width: calc(100% - 24px);
         margin-bottom: 24px;
     }
-
     .timeline-cards__row:last-child .timeline-card {
         margin-bottom: 0;
     }
-
     .timeline-cards__row:nth-child(odd) {
         justify-content: flex-end;
     }
-
     .timeline-cards__row:nth-child(odd)> :before {
         transform: translate(-50%, -50%);
         left: -24px;
@@ -696,22 +685,18 @@ label {
     .work-item {
         margin-bottom: 48px;
     }
-
     .work-item__text--right {
         text-align: left;
     }
-
     .work-item__title {
         font-size: 24px;
         line-height: 32px;
         margin-top: 0;
         margin-bottom: 8px;
     }
-
     .work-item__title--right {
         margin-right: 0;
     }
-
     .work-item__title--left {
         margin-left: 0;
     }
@@ -898,37 +883,31 @@ label {
     [class^="graph_"] {
         transform: scale(0.8);
     }
-
     .graph_main_peach {
         width: 80%;
         top: 28%;
         left: 10%;
     }
-
     .graph_kids_1 {
         width: 80px;
         top: 40%;
         left: -25%;
     }
-
     .graph_kids_2 {
         width: 80px;
         bottom: 10%;
         left: -30%;
     }
-
     .graph_kids_3 {
         width: 80px;
         bottom: 30%;
         left: -120%;
     }
-
     .graph_kids_4 {
         width: 80px;
         bottom: 5%;
         left: 80%;
     }
-
     .graph_kids_5 {
         width: 70px;
         top: 40%;

@@ -375,15 +375,14 @@ label {
     .logo {
         width: 70px;
         /* position: absolute; */
-        left: 15px;
+        left: 5px;
     }
 
     .menu>li>a {
         display: block;
-        font-size: 16px;
+        font-size: 14px;
         line-height: 0px;
-        padding: 20px 16px;
-        margin-right: 4px;
+        padding: 24px 12px;
         color: #e73e50;
     }
 
@@ -399,15 +398,9 @@ label {
         display: none;
     }
 
-    .menu a {
-        display: block;
-        /* border-bottom: 1px solid #e73e50; */
-        margin: 0;
-
-    }
-
     #toggle:checked+.menu {
         display: block;
+
     }
 }
 

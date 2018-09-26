@@ -1,15 +1,7 @@
-/*
- * You can say something about your file if you need it!
- */
-
-/*-------------------------*/
-
 /* $Catalog 
 ---------------------------*/
 
 /** 
- * Globel
- * Elements
  * Header
  * About
  * Quote
@@ -396,11 +388,6 @@
     }
 }
 
-/* menu-toggle 
----------------------*/
-
-/*-------------------------*/
-
 /* $peach
 ---------------------------*/
 
@@ -506,6 +493,7 @@
     border-radius: 4px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
     padding: 24px;
+    margin-left: -28px;
     padding-left: 36px;
 }
 

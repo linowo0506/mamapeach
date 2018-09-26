@@ -312,7 +312,6 @@
     float: left;
 }
 
-
 .menu {
     float: right;
 }
@@ -400,10 +399,8 @@ label {
 
     #toggle:checked+.menu {
         display: block;
-
     }
 }
-
 
 /* menu-toggle 
 ---------------------*/
@@ -864,9 +861,7 @@ label {
 
 /* 
 @media (max-width: 768px) {
-    [class^="graph_"] {
-        transform: scale(0.8);
-    }
+    
 } */
 
 .graph_main_peach {
@@ -898,3 +893,44 @@ label {
     top: 5%;
     left: 40%;
 }
+
+@media (max-width:768px) {
+    [class^="graph_"] {
+        transform: scale(0.8);
+    }
+
+    .graph_main_peach {
+        width: 80%;
+        top: 28%;
+        left: 10%;
+    }
+
+    .graph_kids_1 {
+        width: 80px;
+        top: 40%;
+        left: -25%;
+    }
+
+    .graph_kids_2 {
+        width: 80px;
+        bottom: 10%;
+        left: -30%;
+    }
+
+    .graph_kids_3 {
+        width: 80px;
+        bottom: 30%;
+        left: -120%;
+    }
+
+    .graph_kids_4 {
+        width: 80px;
+        bottom: 5%;
+        left: 80%;
+    }
+
+    .graph_kids_5 {
+        width: 70px;
+        top: 40%;
+        left: 90%;
+    }
